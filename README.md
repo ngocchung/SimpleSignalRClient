@@ -18,7 +18,6 @@ private void startSignalR() {
             signalRFuture.get();
         } catch (InterruptedException | ExecutionException e) {
             Log.e("SimpleSignalR", e.toString());
-            e.printStackTrace();
             return;
         }
 
