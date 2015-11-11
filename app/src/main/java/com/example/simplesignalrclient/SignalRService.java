@@ -99,7 +99,7 @@ public class SignalRService extends Service {
             return;
         }
 
-        sendMessage("Hello from Android!");
+        sendMessage("Hello from BNK!");
 
         String CLIENT_METHOD_BROADAST_MESSAGE = "broadcastMessage";
         mHubProxy.on(CLIENT_METHOD_BROADAST_MESSAGE,
