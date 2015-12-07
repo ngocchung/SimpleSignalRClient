@@ -42,3 +42,5 @@ private void startSignalR() {
     }
 
 ```
+
+[Server App - Microsoft' training documentation](http://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr)
